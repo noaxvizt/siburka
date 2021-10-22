@@ -33,4 +33,3 @@ def add_CO2(sent_time, value):
     db_sess = create_session()
     db_sess.add(now)
     db_sess.commit()
-
